@@ -1,6 +1,6 @@
 # Metadata - Manage metadata of data assets
 
-<img style="width:100%;" src="metadata.jpeg">
+<img style="width:100%;" src="images/metadata.jpeg">
 
 Metadata is information describing about any other data. For example, if a database table includes the field Employee Name, database metadata will include data type of this field, maximum number of characters allowed in this field, or any other information on this field. Similarly, a document metadata includes information such as author, date created, date modified, and file size.
 
@@ -27,7 +27,7 @@ InsightLake Metadata Hub enables companies to obtain metadata from various data 
 
 Metadata Hub defines metadata layer on various data entities. 
 
-<img style="width:100%;" src="metadata-high.jpeg">
+<img style="width:100%;" src="images/metadata-high.jpeg">
 
 System - represents data sources like databases, file systems etc.
 Data Location - represents database, file systems, Kafka broker, SOLR hosts etc. 
@@ -41,7 +41,7 @@ Metadata hub captures technical, operational and business domain metadata and st
 ## Technical Metadata
 Table schema, File type, format, AVRO JSON schema, tags are some of the technical information elements about data assets which Metadata Hub captures and stores.
 
-<img style="width:100%;" src="metadata-loc.jpeg">
+<img style="width:100%;" src="images/metadata-loc.jpeg">
 
 Data profiling feature allows extraction of known technical metadata like data field type, size, min and max values, sample values etc. It also extracts derived information like geo, currency, business domain types etc. All types of metadata gets stored in SOLR based central store to allow fast exploration and REST based integration with other enterprise applications.
 
