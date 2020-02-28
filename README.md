@@ -41,8 +41,6 @@ Metadata hub captures technical, operational and business domain metadata and st
 ## Technical Metadata
 Table schema, File type, format, AVRO JSON schema, tags are some of the technical information elements about data assets which Metadata Hub captures and stores.
 
-<img style="width:100%;" src="images/metadata-loc.jpeg">
-
 Data profiling feature allows extraction of known technical metadata like data field type, size, min and max values, sample values etc. It also extracts derived information like geo, currency, business domain types etc. All types of metadata gets stored in SOLR based central store to allow fast exploration and REST based integration with other enterprise applications.
 
 ## Operational Metadata
@@ -59,6 +57,46 @@ Metadata hub enables companies to put business context over technical metadata t
 
 ## Easy exploration & integration
 Metadata hub stores metadata in SOLR based central storage. It provides fast metadata search and exploration capability. SOLR also exposes metadata store as REST apis, which applications can use to access metadata.
+
+## Data Location
+
+* Locations
+<img style="width:100%;" src="images/location-tab/location-widget.png">
+
+* Properties
+<img style="width:100%;" src="images/location-tab/properties-widget.png">
+
+* Add Location
+<img style="width:100%;" src="images/location-tab/add-location.png">
+
+## Data Store
+
+* Stores
+<img style="width:100%;" src="images/store-tab/data-store-page.png">
+
+* Add Store
+<img style="width:100%;" src="images/store-tab/add-store.png">
+
+
+## Data Explore
+
+* Data
+<img style="width:100%;" src="images/explore-tab/explore-page.png">
+
+* Data Profile
+<img style="width:100%;" src="images/explore-tab/data-profile-widget.png">
+
+* Pivot Table
+<img style="width:100%;" src="images/explore-tab/pivot-table.png">
+
+## Users & Groups
+
+* User Details
+<img style="width:100%;" src="images/setting-tab/user-details.png">
+
+* Group Details
+<img style="width:100%;" src="images/setting-tab/group-details.png">
+
 
 To learn more, check out [http://insightlake.com/dataexplorer.html](http://insightlake.com/dataexplorer.html)
 
