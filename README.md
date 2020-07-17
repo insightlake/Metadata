@@ -109,6 +109,14 @@ Installation
 * By default H2 database is used, you can change the database details in jdbc.properties file
 
 
+Installation using docker 
+------
+* Download or clone the repository. 
+* cd docker
+* docker-compose -f docker-compose.yaml up --build
+* Open browser with URL as http://localhost:8080/
+
+
 License
 ------
 InsightLake Data Explorer is a commercial product but distributed to be used freely. Please contact contact@insightlake.com for details.
