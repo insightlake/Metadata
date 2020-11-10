@@ -98,7 +98,7 @@ Metadata hub stores metadata in SOLR based central storage. It provides fast met
 <img style="width:100%;" src="images/setting-tab/group-details.png">
 
 
-To learn more, check out [http://insightlake.com/dataexplorer.html](http://insightlake.com/dataexplorer.html)
+To learn more, check out [http://www.insightlake.com/metadata-store.html](http://www.insightlake.com/metadata-store.html)
 
 Installation
 ------
